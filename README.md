@@ -1,4 +1,11 @@
 # e-Clothing-store-database-
+  Requirment and document are in the resource folder. You can go in there if you want to know more about this self-project.
+  
+# ERD 
+![Diagram](resource/diagram.png)
+
+![Table](resource/table.JPG)
+
 
 # Business rule & Assumption
 Assumption
@@ -27,9 +34,4 @@ o	So, if they want to order many different shirt/, different customization. They
 	To be more clear, one order can only consist one type of shirt with one customization and the amount of it. 
 •	If the customer cancel order, based on the customer id, they shop can delete all the information, ‘Y’ can be added and the meaning will be order cancelled in the database. 
 o	These information can be used to calculate the order that was cancelled ( to track scam, bad intention people or just known about the number of total order made and percentage of not canceled and cancelled order)
-
-# ERD 
-![Diagram](resource/diagram.png)
-
-![Table](resource/table.jpg)
 
