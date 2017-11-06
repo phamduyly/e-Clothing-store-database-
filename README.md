@@ -3,6 +3,7 @@
 # Business rule & Assumption
 Assumption
 •	For `item` table, the store going to increase the type of their product and will not only selling shirt anymore. So I made a column name so that can add items such as: pants, t-shirt, polo.
+
 •	For `type` table, I assumed that the the store  will have only 3 fixed size for image, logo and text so that it will appear the best on the shirt and also the customer  will be easy to choose how large or small the customization (image,logo, text) can be. 
 o	I created Small, Medium, Large logo, image, text
 •	For size in `type` table, the value is understand as cm2 
@@ -30,5 +31,5 @@ o	These information can be used to calculate the order that was cancelled ( to t
 # ERD 
 ![Diagram](resource/diagram.png)
 
-![Table](resource/table.png)
+![Table](resource/table.jpg)
 
